@@ -11,10 +11,12 @@ Step 1 – open this site of Google to make a new secret Recaptcha
 
 
 Step 2 – write in terminal:
- composer require biscolab/laravel-recaptcha
+
+composer require biscolab/laravel-recaptcha
  
 Step 3 – write in terminal:
-  php artisan vendor:publish --provider="Biscolab\ReCaptcha\ReCaptchaServiceProvider"
+  
+php artisan vendor:publish --provider="Biscolab\ReCaptcha\ReCaptchaServiceProvider"
 
 
 step 4 - open config/recaptcha.php
@@ -23,8 +25,10 @@ change v2 to v3
  
  
 Step 5 – Add the below code in .env
-  RECAPTCHA_SITE_KEY=ADD_YOUR_SITE_KEY
-  RECAPTCHA_SECRET_KEY=ADD_YOUR_SECRET_KEY
+ 
+ RECAPTCHA_SITE_KEY=ADD_YOUR_SITE_KEY
+  
+ RECAPTCHA_SECRET_KEY=ADD_YOUR_SECRET_KEY
   
 
 
